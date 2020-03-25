@@ -82,7 +82,7 @@ function draw() {
   text("Score: "+ score, 500,50);
   if (gamestate === PLAY){
     if(keyDown("space") && trex.y>= 161.5) {
-    trex.velocityY = -10;
+    trex.velocityY = -12;
     sound3.play();  
     }
    score = score + Math.round(getFrameRate()/60); 
