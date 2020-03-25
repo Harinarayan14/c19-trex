@@ -75,7 +75,7 @@ function setup() {
 function draw() {
   background(180);
   console.log(trex.y);
-  if(frameCount%100 === 0)
+  if(score%100 === 0)
   {
     sound1.play();
   }  
